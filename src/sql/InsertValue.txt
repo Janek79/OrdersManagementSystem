@@ -1,0 +1,1 @@
+INSERT INTO orders (ClientId, RequestId, Name, Quantity, Price) VALUES (?, ?, ?, ?, ?);

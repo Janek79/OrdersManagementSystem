@@ -1,0 +1,1 @@
+java -cp target/orders-1.0.jar git.javabootcamp.orders.App %*
