@@ -16,7 +16,7 @@ public class ReportsGenerator {
 	}
 	
 	public static String numberOfOrdersForClient(int clientId) {
-		return "Number of all orders for client " + clientId + sep + InMemoryDatabaseService.getNumberOfOrders();
+		return "Number of all orders for client " + clientId + sep + InMemoryDatabaseService.getNumberOfOrdersForClient(clientId);
 	}
 	
 	public static String totalOrdersAmount() {
