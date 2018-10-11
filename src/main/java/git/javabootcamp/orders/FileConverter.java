@@ -58,7 +58,7 @@ public class FileConverter {
 						}
 					}
 				} else {
-					JOptionPane.showMessageDialog(null, "File hasn't correct headline", "Error", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "File hasn't correct headline or there is problem with encoding", "Error", JOptionPane.ERROR_MESSAGE);
 				}
 
 				return list;
